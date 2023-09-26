@@ -1,7 +1,6 @@
-h2{
-    color: #FFFAFB;
 
-}
+
+
 
 header{
   position: fixed;
@@ -29,7 +28,7 @@ main{
  
 }
 h2{
-    background-color: #2b2c28;
+    background-color: #585856;
 }
 
 .name{
@@ -43,6 +42,7 @@ h2{
     padding-left: 4rem;
     float:right;
     padding-top: 17px;
+    
 
 }
 
@@ -52,9 +52,30 @@ h2{
     margin-left: 1.25em;
     outline: 10px;
     outline-color: black;
-    border-bottom: 2px solid #505050;
+    border-bottom: 2px solid #000000;
  }
+ .links b {
+    text-decoration: wavy underline;
+    color: inherit;
+    margin-left: 1.25em;
+    outline: 10px;
+    border-bottom: 2px solid  #087e8B;
+    display: inline-block;
+    padding: .25em 0;
+    background: #437ea5;
+    color: #ffffff;
+
+ }
+
+
  
- footer{
-    margin-top: 99%;
+form {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+div {
+    padding: 20px;
 }
